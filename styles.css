@@ -2,3 +2,21 @@
     weight: 100px;
     height: 100px;
 }
+
+.progress_all{
+    background: gray;
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    width: 320px;
+}
+
+.progress_done{
+    background: red;
+    color: white;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    width: 320px;
+}

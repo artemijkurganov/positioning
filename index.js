@@ -1,7 +1,10 @@
-/*
-    Изменить элементу цвет и ширину можно вот так:
+let w = 0;
+const element = document.querySelector('.progress_done');
 
-    const element = document.querySelector('.myElement');
-    element.style.color = 'red';
-    element.style.width = '300px';
-*/
+function bigger(){
+    if (w >= 320) clearInterval(_);
+    element.style.width = w + 'px';
+    w += 10;
+}
+
+let _ = setInterval(bigger, 80);
